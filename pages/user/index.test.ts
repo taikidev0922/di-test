@@ -9,7 +9,7 @@ describe("User Page", () => {
     const component = await mountSuspended(App, {
       route: "/user",
     });
-    expect(component.text()).toMatchInlineSnapshot(`"HomeUsersUsersGet Users"`);
+    expect(component.text()).toMatchInlineSnapshot(`"HomeUsersUsersGet UsersAdd User"`);
   });
 
   test("user page should render users", async () => {
