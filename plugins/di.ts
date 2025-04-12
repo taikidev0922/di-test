@@ -1,5 +1,5 @@
 import { GetUsersService } from "~/applications/user/GetUsersService";
-import { AddUserService } from "~/applications/user/addUserService";
+import { AddUserService } from "~/applications/user/AddUserService";
 import { IMUserRepository } from "~/infrastructures/repository/user/IMUserRepository";
 import { UserRepository } from "~/infrastructures/repository/user/UserRepository";
 

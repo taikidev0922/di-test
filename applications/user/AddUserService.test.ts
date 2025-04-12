@@ -1,5 +1,5 @@
 import { User } from "~/domains/User";
-import { AddUserService } from "./addUserService";
+import { AddUserService } from "./AddUserService";
 import { IMUserRepository } from "~/infrastructures/repository/user/IMUserRepository";
 import { describe, expect, it } from "vitest";
 describe("AddUserService", () => {
